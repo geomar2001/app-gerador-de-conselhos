@@ -1,0 +1,107 @@
+@media (max-width: 600px) {
+    .card {
+        padding: 20px 15px;
+    }
+
+    .titulo {
+        font-size: 0.9rem;
+    }
+
+    .meio {
+        font-size: 1.2rem;
+    }
+
+    .botao {
+        width: 50px;
+        height: 50px;
+        font-size: 1.2rem;
+    }
+}
+
+
+
+.layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+
+
+
+}
+
+.card {
+    position: relative;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(217, 19%, 24%);
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+    padding: 30px 20px;
+    justify-content: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+
+
+}
+
+.titulo {
+    margin: 3rem 0;
+    color: hsl(150, 100%, 66%);
+    font-size: 1rem;
+
+}
+
+.texto {
+    color: hsl(193, 38%, 86%);
+    margin-bottom: 30px;
+}
+
+.tracos {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    top: 30px;
+}
+
+.direita,
+.esquerda {
+    flex: 1;
+    height: 1px;
+
+    background-color: hsl(193, 38%, 86%);
+
+
+
+
+}
+
+.meio {
+    font-size: 30px;
+    border-radius: 20px;
+    font-family: "Bagel Fat One", system-ui;
+    color: hsl(193, 38%, 86%);
+
+}
+
+
+.botao {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(150, 100%, 66%);
+    font-size: 1.5rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    top: 50px;
+}
